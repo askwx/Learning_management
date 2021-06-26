@@ -1,6 +1,9 @@
+import Flow from "./flow";
+
 function MasterUser() {
 	return (
     <div className="page-wrapper">
+     
        {/*HEADER MOBILE*/}
         <header className="header-mobile d-block d-lg-none">
             <div className="header-mobile__bar">
@@ -432,6 +435,7 @@ function MasterUser() {
                                         </div>
                                     </div>
                                 </div>
+                                <Flow />
                             </div>
                             <div className="col-sm-6 col-lg-3">
                                 <div className="overview-item overview-item--c2">
@@ -507,6 +511,15 @@ function MasterUser() {
                     </div>
                 </div>
             </div>
+
+
+    
+
+
+
+
+
+
              {/* END MAIN CONTENT*/}
              {/* END PAGE CONTAINER*/}
         </div>
