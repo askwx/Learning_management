@@ -435,7 +435,7 @@ function MasterUser() {
                                         </div>
                                     </div>
                                 </div>
-                                <Flow />
+                                
                             </div>
                             <div className="col-sm-6 col-lg-3">
                                 <div className="overview-item overview-item--c2">
@@ -491,10 +491,13 @@ function MasterUser() {
                                     </div>
                                 </div>
                             </div>
+                            
                         </div>
                         <div className="row">
+                              
                             <div className="col-lg-6">
                                 <div className="au-card recent-report">
+                                    <Flow />
                                     <div className="au-card-inner">
                                         
                                        
